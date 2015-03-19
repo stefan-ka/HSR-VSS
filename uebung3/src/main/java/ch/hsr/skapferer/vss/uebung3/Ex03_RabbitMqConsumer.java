@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Map;
 
 public class Ex03_RabbitMqConsumer {
-	private final static String QUEUE_NAME = "hello_queue";
+	public final static String QUEUE_NAME = "hello_queue";
 
 	public static void main(String[] argv) throws Exception {
 		Connection connection = createConnection();
